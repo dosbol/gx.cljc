@@ -16,6 +16,7 @@
           :baq {:gx/component `compo3}}})
 
 (comment
+  (gx-sys/failures ::x)
   (gx-sys/failures-humanized ::x)
   (gx-sys/signal! ::x :gx/start)
   (gx-sys/states ::x)
